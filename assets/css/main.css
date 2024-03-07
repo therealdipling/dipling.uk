@@ -8,4 +8,12 @@ body {
   background-color: #000000;
   color: #ffffff;
   font-family: "8bitOperatorPlus-Bold", monospace;
+}
+
+header {
+  background-color: #ff2020;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #f9ff10;
 }/*# sourceMappingURL=main.css.map */
