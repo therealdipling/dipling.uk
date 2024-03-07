@@ -1,2 +1,2 @@
 # dipling.uk
-dipling.uk cloudlfare website
+This is the GitHub repository for my website, dipling.uk
