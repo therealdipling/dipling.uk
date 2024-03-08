@@ -1,8 +1,9 @@
 body {
   background-color: black;
   color: white;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 16px;
+  text-align: center;
 }
 
 header {
