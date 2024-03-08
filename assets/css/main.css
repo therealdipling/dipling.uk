@@ -11,3 +11,9 @@ header {
   color: #ff2020;
   font-size: 24px;
 }
+
+footer {
+  text-align: center;
+  font-size: 11px;
+  color: grey;
+}
