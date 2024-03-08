@@ -1,25 +1,17 @@
-* {
-  margin: 0;
-}
-
 body {
-  padding: 0;
-  background-color: #010101;
-  color: #fefefe;
-  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: white;
   font-size: 16px;
   text-align: center;
 }
 
 header {
-  text-align: center;
-  background-color: #31f3f2;
-  color: #ff044b;
-  font-size: 24px;
+  font-size: 12px;
+  color: grey;
+  padding: 8px;
 }
 
 footer {
-  text-align: center;
   font-size: 12px;
   color: grey;
   padding: 8px;
