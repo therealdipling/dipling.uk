@@ -3,6 +3,7 @@ body {
   color: white;
   font-size: 16px;
   text-align: center;
+  font-family: 'Consolas', monospace;
 }
 
 header {
@@ -13,7 +14,7 @@ header {
 
 .label {
   font-size: 12px;
-  color: grey;
+  color: lightgrey;
   padding: 8px;
 }
 
