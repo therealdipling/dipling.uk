@@ -6,7 +6,6 @@ body {
   background-color: black;
   color: rgb(255, 205, 41);
   font-family: 'Courier New', Courier, monospace;
-  background-image: url(/assets/images/cool.gif);
 }
 
 a {
@@ -14,7 +13,7 @@ a {
 }
 
 header {
-  /* background-image: url(/assets/images/cool.gif); */
+  background-image: url(/assets/images/cool.gif);
   text-align: center;
   font-size: 35px;
 }
