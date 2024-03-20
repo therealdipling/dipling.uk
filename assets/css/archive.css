@@ -19,6 +19,7 @@ img {
 
 header {
   background-image: url(/assets/images/bg.gif);
+  filter: brightness(0) saturate(100%) invert(80%) sepia(77%) saturate(1628%) hue-rotate(335deg) brightness(109%) contrast(103%);
   text-align: center;
   font-size: 35px;
 }
