@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: rgb(255, 205, 41);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  color: rgb(255, 205, 41);
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+header {
+  background-image: url(/assets/images/bg.gif);
+  text-align: center;
+  font-size: 35px;
+}
+
+nav {
+  float: left;
+  width: 15%;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  font-size: 10px;
+  padding: 10px;
+  text-align: center;
+}
