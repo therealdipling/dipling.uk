@@ -13,6 +13,7 @@ a {
 }
 
 header {
+  background-image: url(/assets/images/cool.gif);
   text-align: center;
   font-size: 35px;
 }
