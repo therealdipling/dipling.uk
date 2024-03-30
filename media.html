@@ -35,20 +35,26 @@
                 <br>
                 <h3>Random Video</h3>
                 <p>This is a randomly selected video, refresh the page for a different one:</p>
-                <script>
-                    let x = Math.random(1,2)
-                    switch (x) {
-                        case 1:
-                            document.getElementById("randvid").innerHTML = '<source src="/assets/videos/random/exam.mp4" type="video/mp4">';
-                            break;
-                        case 2:
-                            document.getElementById("randvid").innerHTML = '<source src="/assets/videos/random/inshallah.mp4" type="video/mp4">';
-                            break;
-                    }
-                </script>
                 <video width="960px" height="540px" id="randvid" controls>
                     <source src="/assets/videos/noscript.mp4" type="video/mp4">
                 </video>
+                <script>
+                    var video = document.getElementById('randvid');
+                    var source = document.createElement('source');
+                    var x = Math.random(1,2);
+
+                    switch (x) {
+                        case 1:
+                            source.setAttribute('src', '/assets/videos/random/exam.mp4');
+                            break;
+                        case 2:
+                        source.setAttribute('src', '/assets/videos/random/inshallah.mp4');
+                        break;
+                    }
+                    source.setAttribute('type', 'video/mp4');
+                        
+                    video.load();
+                </script>
 
                 <br>
                 <h3>Videos</h3>
