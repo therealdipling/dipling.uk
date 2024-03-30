@@ -39,12 +39,12 @@
                     <source id="source" src="/assets/videos/noscript.mp4" type="video/mp4">
                 </video>
                 <script>
-                    print("running");
+                    console.log("running");
                     var video = document.getElementById('randomvideo');
                     var source = video.firstElementChild;
-                    print("elements found");
+                    console.log("elements found");
                     var x = Math.random(1,2);
-                    print(x);
+                    console.log(x);
 
                     switch (x) {
                         case 1:
@@ -54,11 +54,11 @@
                             source.setAttribute('src', '/assets/videos/random/inshallah.mp4');
                             break;
                     }
-                    print("switch case done");
                     source.setAttribute('type', 'video/mp4');
+                    console.log("attributes assigned");
                         
                     video.load();
-                    print("loaded");
+                    console.log("loaded");
                 </script>
 
                 <br>
