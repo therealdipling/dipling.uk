@@ -35,12 +35,12 @@
                 <br>
                 <h3>Random Video</h3>
                 <p>This is a randomly selected video, refresh the page for a different one:</p>
-                <video width="960px" height="540px" id="randvid" controls>
-                    <source src="/assets/videos/noscript.mp4" type="video/mp4">
+                <video id="randvid" width="960px" height="540px" controls>
+                    <source id="randvidsrc" src="/assets/videos/noscript.mp4" type="video/mp4">
                 </video>
                 <script>
                     var video = document.getElementById('randvid');
-                    var source = document.createElement('source');
+                    var source = document.getElementById('randvidsrc');
                     var x = Math.random(1,2);
 
                     switch (x) {
