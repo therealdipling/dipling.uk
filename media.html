@@ -35,9 +35,6 @@
                 <br>
                 <h3>Random Video</h3>
                 <p>This is a randomly selected video, refresh the page for a different one:</p>
-                <video width="960px" height="540px" id="randvid" controls>
-                    <source src="/assets/videos/noscript.mp4" type="video/mp4">
-                </video>
                 <script>
                     let x = Math.random(1,2)
                     switch (x) {
@@ -49,6 +46,9 @@
                             break;
                     }
                 </script>
+                <video width="960px" height="540px" id="randvid" controls>
+                    <source src="/assets/videos/noscript.mp4" type="video/mp4">
+                </video>
 
                 <br>
                 <h3>Videos</h3>
