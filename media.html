@@ -39,12 +39,9 @@
                     <source id="source" src="/assets/videos/noscript.mp4" type="video/mp4">
                 </video>
                 <script>
-                    console.log("running");
                     var video = document.getElementById('randomvideo');
                     var source = video.firstElementChild;
-                    console.log("elements found");
                     var x = Math.floor(Math.random());
-                    console.log(x);
 
                     switch (x) {
                         case 0:
@@ -55,10 +52,8 @@
                             break;
                     }
                     source.setAttribute('type', 'video/mp4');
-                    console.log("attributes assigned");
                         
                     video.load();
-                    console.log("loaded");
                 </script>
 
                 <br>
