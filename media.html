@@ -32,6 +32,23 @@
                 <h2>Random Shit</h2>
                 <h3>Quotes</h3>
                 <p>"Go to bed with itchy bum, wake up with smelly finger" - <i>Amacca101</i></p>
+                <br>
+                <h3>Random Video</h3>
+                <p>This is a randomly selected video, refresh the page for a different one:</p>
+                <video width="960px" height="540px" id="randvid" controls>
+                    <source src="/assets/videos/noscript.mp4" type="video/mp4">
+                </video>
+                <script>
+                    let x = math.random(1,2)
+                    switch (x) {
+                        case 1:
+                            document.getElementById("randvid").innerHTML = '<source src="/assets/videos/random/exam.mp4" type="video/mp4">';
+                            break;
+                        case 2:
+                            document.getElementById("randvid").innerHTML = '<source src="/assets/videos/random/inshallah.mp4" type="video/mp4">';
+                            break;
+                    }
+                </script>
 
                 <br>
                 <h3>Videos</h3>
