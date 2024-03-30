@@ -43,14 +43,14 @@
                     var video = document.getElementById('randomvideo');
                     var source = video.firstElementChild;
                     console.log("elements found");
-                    var x = Math.floor(Math.random()) + 1;
+                    var x = Math.floor(Math.random());
                     console.log(x);
 
                     switch (x) {
-                        case 1:
+                        case 0:
                             source.setAttribute('src', '/assets/videos/random/exam.mp4');
                             break;
-                        case 2:
+                        case 1:
                             source.setAttribute('src', '/assets/videos/random/inshallah.mp4');
                             break;
                     }
