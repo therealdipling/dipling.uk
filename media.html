@@ -32,29 +32,6 @@
                 <h2>Random Shit</h2>
                 <h3>Quotes</h3>
                 <p>"Go to bed with itchy bum, wake up with smelly finger" - <i>Amacca101</i></p>
-                <br>
-                <h3>Random Video</h3>
-                <p>This is a randomly selected video, refresh the page for a different one:</p>
-                <video id="randomvideo" width="960px" height="540px" controls>
-                    <source src="/assets/videos/noscript.mp4" type="video/mp4">
-                </video>
-                <script>
-                    var video = document.getElementById('randomvideo');
-                    var source = video.firstElementChild;
-                    var x = Math.round(Math.random());
-
-                    switch (x) {
-                        case 0:
-                            source.setAttribute('src', '/assets/videos/random/exam.mp4');
-                            break;
-                        case 1:
-                            source.setAttribute('src', '/assets/videos/random/inshallah.mp4');
-                            break;
-                    }
-                    source.setAttribute('type', 'video/mp4');
-                        
-                    video.load();
-                </script>
 
                 <br>
                 <h3>Videos</h3>
