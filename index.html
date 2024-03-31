@@ -26,14 +26,14 @@
                 <p>This is a website where I put things I find funny/interesting or just wanna preserve online.</p>
                 <p>Also, this site looks shit on most phones, so please bear that in mind if using one.</p>
                 <br>
-                <h3>Featured Video</h3>
+                <h2>Featured Video</h2>
                 <video id="randomvideo" width="960px" height="540px" controls>
                     <source src="/assets/videos/noscript.mp4" type="video/mp4">
                 </video>
                 <script>
                     var video = document.getElementById('randomvideo');
                     var source = video.firstElementChild;
-                    var x = Math.round(Math.random());
+                    var x = Math.round(Math.random()*2);
 
                     switch (x) {
                         case 0:
@@ -41,6 +41,9 @@
                             break;
                         case 1:
                             source.setAttribute('src', '/assets/videos/random/inshallah.mp4');
+                            break;
+                        case 2:
+                            source.setAttribute('src', '/assets/videos/random/reasons.mp4');
                             break;
                     }
                     source.setAttribute('type', 'video/mp4');
