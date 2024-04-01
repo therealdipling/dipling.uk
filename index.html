@@ -33,7 +33,7 @@
                 <script>
                     var video = document.getElementById('randomvideo');
                     var source = video.firstElementChild;
-                    var x = Math.floor(Math.random()*3);
+                    var x = Math.floor(Math.random()*4);
 
                     switch (x) {
                         case 0:
@@ -44,6 +44,9 @@
                             break;
                         case 2:
                             source.setAttribute('src', '/assets/videos/random/reasons.mp4');
+                            break;
+                        case 3:
+                            source.setAttribute('src', '/assets/videos/random/gd.mp4');
                             break;
                     }
                     source.setAttribute('type', 'video/mp4');
